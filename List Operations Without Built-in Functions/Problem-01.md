@@ -1,7 +1,7 @@
 ## Problem Statement:
-You are given a list of n integers. Your task is to find the zero-based index of the first occurrence of this specific value in the list. If the provided value isn't found in the list at all, return -1 instead.
+You are given a list of n integers. Your task is to find the zero-based index of the first occurrence of this specific value in the list. If the provided value isn't found in the list at all, return `-1` instead.
 
-In this task, you must implement the solution without using any built-in functions or methods. Specifically, the use of the Python index() method of a list is not allowed in your solution
+In this task, you must implement the solution without using any built-in functions or methods. Specifically, the use of the Python `index()` method of a list is not allowed in your solution
 
 ## Solution:
 ```python
