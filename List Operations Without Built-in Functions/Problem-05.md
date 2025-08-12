@@ -13,7 +13,7 @@ def solution(listA, listB):
         if listA[i] == listB[0]:
             s = 0
             for j in range(len(listB)):
-                # check if subset is greater then the end of size of listA
+                # check if subset size is greater then the end of size of listA
                 if i + j >= len(listA):
                     break
                 if listA[i + j] == listB[j]:
