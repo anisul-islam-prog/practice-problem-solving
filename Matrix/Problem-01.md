@@ -16,7 +16,17 @@ Your function should return **True** because all diagonals that run from the top
 
 # Solution
 ```python
+from typing import List
 
+
+def is_toeplitz(matrix: List[List[int]]) -> bool:
+   n = len(matrix[0])
+   for col in range(n - 1):
+      for row in range(n - 1):
+         if matrix[row][col] != matrix[row + 1][col + 1]:
+            return False
+   return True
+   pass
 ```
 
 # Tests
